@@ -1,0 +1,309 @@
+@font-face {
+    font-family: 'Larsseit';
+    src: local('Larsseit Regular'), local('Larsseit-Regular'),
+        url('fonts/Larsseit.woff2') format('woff2'),
+        url('fonts/Larsseit.woff') format('woff'),
+        url('fonts/Larsseit.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+body{
+  overflow-x: hidden;
+  margin: 0;
+  padding:0;
+}
+.container{
+  position: absolute;
+  width: 100%;
+  display:grid;
+  grid-template-rows: 840px 607px 460px 360px 100px 480px 480px 271px 271px 800px 800px 380px 80px;
+  grid-template-columns: 1fr 1fr 1fr;
+  overflow: hidden;
+}
+.grid-item1{
+  background: linear-gradient(90deg, #f4f9e2 80%, white 20%);
+  grid-column: 1/4;
+}
+.grid-item1__ellips{
+  position: absolute;
+  width: 807.71px;
+  height: 544.93px;
+  left: 630px;
+  top: -30px;
+  background: #EDFDFF;
+  border-radius: 312.159px;
+  transform: matrix(-0.5, 0.87, 0.87, 0.5, 0, 0);
+  z-index: 1;
+}
+.grid-item1__image{
+  clip-path
+  z-index: 2;
+}
+.grid-item2{
+  background: #62D0DF;
+  grid-column: 1/4;
+  display:flex;
+  flex-direction: row;
+  justify-content:flex-end;
+}
+.grid-item2__article{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: flex-start;
+  justify-content: center;
+  flex-grow: 2;
+}
+.grid-item2__heading{
+  color: #FFFFFF;
+  font-family: 'Larsseit', sans-serif;
+  font-size: 36px;
+  line-height: 27px;
+  letter-spacing: -0.006em;
+  text-align:left;
+  width:555px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.grid-item2__text{
+  color: #FFFFFF;
+  font-family: 'Larsseit', sans-serif;
+  font-size: 20px;
+  line-height: 29px;
+  width:555px;
+}
+.grid-item2__text_big{
+  font-size: 24px;
+  line-height: 35px;
+  font-weight: 500;
+}
+.grid-item2__image{
+
+}
+.grid-item3{
+  grid-column: 1/4;
+}
+.grid-item3__about-us{
+  font-family: 'Larsseit';
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: #22356F;
+}
+.grid-item3__text{
+  font-family: 'Larsseit',sans-serif;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: 0.005em;
+  color: #22356F;
+  width: 592px;
+}
+.grid-item3__help{
+  font-family: 'Larsseit',sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: rgba(34, 53, 111, 0.5);
+  margin-bottom: 3%;
+}
+.grid-item4{
+  grid-column: 1/4;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+hr{ border: none;
+    width: 120%;
+    background-color: white;
+    height: 1px;
+    margin-top: 20%;
+    margin-bottom: 6%;
+    width: 71%;
+}
+.grid-item4__weight{
+  background: #FFE2DE;
+  width: 25vw;
+}
+.grid-item4__run{
+  background: #C4E769;
+  width: 25vw;
+}
+.grid-item4__iron{
+  background: #62D0DF;
+  width: 25vw;
+}
+.grid-item4__iron2{
+  background: #0052C1;
+  width: 25vw;
+}
+.block-text{
+font-family: 'Larsseit',sans-serif;
+font-size: 32px;
+line-height: 34px;
+letter-spacing: -0.006em;
+color: #FFFFFF;
+width: 71%;
+margin-left: 14.6%;
+display: flex;
+flex-direction: row;
+}
+.marker{
+  color: #E9B730;
+  margin-right: 3%;
+}
+.grid-item5{
+  grid-column: 1/4;
+}
+.grid-item6{
+  background: #22356F;
+}
+.grid-item7{
+  background: #0052C1;
+}
+.grid-item8{
+  background: url(images/strawberry.jpg);
+  background-clip: border-box;
+}
+.grid-item9{
+  background: #62D0DF;
+}
+.grid-item10{
+  background: #DEE1FF;
+}
+.grid-item11{
+  background: #8F00FF;
+}
+.grid-item12, .grid-item13, .grid-item14, .grid-item15, .grid-item16, .grid-item17{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.grid-item__heading{
+font-family: 'Larsseit',sans-serif;
+font-size: 28px;
+line-height: 33px;
+letter-spacing: -0.03em;
+color: #22356F;
+text-align:left;
+width: 298px;
+}
+.grid-item__text{
+font-family: 'Larsseit',sans-serif;
+font-size: 16px;
+line-height: 25px;
+letter-spacing: -0.03em;
+color: rgba(34, 53, 111, 0.5);
+width: 298px;
+}
+.grid-item18{
+  background: url(images/yellow-chairs.jpg);
+  background-clip: border-box;
+  grid-column: 1/2;
+}
+.grid-item19{
+  grid-column: 2/4;
+}
+.grid-item19__more-inf{
+font-family: 'Larsseit',sans-serif;
+font-size: 16px;
+line-height: 12px;
+letter-spacing: 0.06em;
+color: #22356F;
+}
+.grid-item19__text{
+font-family: 'Larsseit',sans-serif;
+font-size: 36px;
+line-height: 53px;
+letter-spacing: -0.01em;
+color: #22356F;
+width: 676px;
+height: 215px;
+}
+.grid-item19__text_color{
+color: #6CD3E1;
+}
+.grid-item19__help{
+font-family: 'Larsseit',sans-serif;
+font-size: 16px;
+line-height: 23px;
+display: flex;
+align-items: center;
+letter-spacing: 0.1em;
+color: #FAB63E;
+}
+.grid-item20{
+  background: #22356F;
+  grid-column: 1/3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.grid-item20__contact{
+  font-family: 'Larsseit',sans-serif;
+  font-size: 16px;
+  line-height: 12px;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+  width: 579px;
+}
+.grid-item20__heading{
+  font-family: 'Larsseit',sans-serif;
+  font-size: 64px;
+  line-height: 94px;
+  letter-spacing: -0.01em;
+  color: #FFFFFF;
+  width: 579px;
+}
+.grid-item20__text{
+  font-family: 'Larsseit',sans-serif;
+  font-size: 36px;
+  line-height: 53px;
+  letter-spacing: -0.005em;
+  color: #FFFFFF;
+  width: 579px;
+}
+.grid-item20__help{
+  font-family: 'Larsseit',sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  color: #62D0DF;
+  width: 579px;
+}
+.grid-item21{
+  background: url(images/black-man.jpg);
+  background-clip: border-box;
+  grid-column: 3/4;
+}
+.grid-item22{
+  display:flex;
+  flex-direction: row;
+  grid-column: 1/4;
+}
+.grid-item22__section{
+  display: flex;
+  flex-direction: row;
+}
+.grid-item22__info{
+
+}
+.grid-item22__address{
+
+}
+.grid-item22__hours{
+
+}
+.grid-item23{
+  background: #62D0DF;
+  grid-column: 1/4;
+}
+.grid-item23__copyright{
+font-family: 'Larsseit',sans-serif;
+font-size: 14px;
+line-height: 11px;
+letter-spacing: -0.006em;
+color: #FFFFFF;
+}
